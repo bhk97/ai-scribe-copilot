@@ -160,10 +160,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      TextButton(
-                        onPressed: () {},
-                        child: Text("Forgot Password?", style: TextStyle(color: Colors.blue.shade700)),
-                      ),
+
                       TextButton(
                         onPressed: () {
                           Navigator.push(
