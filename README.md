@@ -2,15 +2,40 @@
 
 A new Flutter project.
 
-## Getting Started
+📖 AI Scribe Copilot
+A cross-platform Flutter app for audio recording, transcription, and streaming with interruption handling.
+📱 Download
+Android APK (Release) → [Download here](https://github.com/bhk97/ai-scribe-copilot/releases/tag/file)
+iOS Demo (Loom Video) → [Watch Here](https://www.loom.com/share/7960899930184609ac5f8940f75fd1e2)
+🌍 Backend
+Live API URL → [URL](http://medinotes-backend.onrender.com/test)
+Postman Collection → [View here](https://affluencestudent09-9621263.postman.co/workspace/b670ffce-7bf1-4e01-8127-a71bfbfbad9a/collection/48826497-cff7c6df-8ee2-427b-863e-6b3c40bf8208?action=share&source=copy-link&creator=48826497)
+👉 Backend source code & Docker setup is in a separate repo:
+ai-scribe-backend
+🎥 Demo Video
+5-Minute Demo (Interruption Handling)
+🛠️ Setup Instructions
+Clone and build
+git clone https://github.com/bhk97/ai-scribe-copilot
+cd ai-scribe-copilot
+flutter pub get
+Build APK
+flutter build apk --release
+Build iOS (simulator)
+flutter build ios --simulator
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+✅ Features
+🎙️ Record audio
+🔄 Stream audio to backend in real-time
+📡 Live transcription with backend
+⏸️ Handle interruptions (pause/resume, phone calls)
+🔧 Works with native features (permissions, toasts, etc.)
+📦 Submission Checklist
+✅ GitHub repo with Flutter source code
+✅ Android APK download link (Releases)
+✅ iOS Loom demo link
+✅ Live backend URL
+✅ API documentation + Postman collection
+✅ Docker setup for backend (see backend repo)
+✅ 5-minute demo video (interruption handling)
+✅ README with all setup instructions
