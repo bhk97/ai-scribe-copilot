@@ -1,3 +1,1 @@
-import 'package:flutter_dotenv/flutter_dotenv.dart';
-
-var baseURL = dotenv.env['baseURL'];
+const baseURL = 'https://medinotes-backend.onrender.com/';
